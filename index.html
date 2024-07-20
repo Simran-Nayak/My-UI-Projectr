@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Builtin</title>
+    <style>
+        body{
+    background:url("https://wallpapers.com/images/hd/website-background-sdki780prxb1nfs5.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:darken;
+    background-color:rgba(0,0,0,0.5);
+    margin:0;
+    padding:0;
+    height:100vh;
+}
+.parent{
+    height:80px;
+    width:100%;
+    background-color:rgb(9, 9, 93);
+label{
+    display:inline;
+    color:white;
+    font-size:50px;
+    margin-left:100px;
+    line-height:80px;
+}
+ul{
+    margin-right:10px;
+    float:right;
+}
+ul li{
+    display:inline-block;
+    margin:10px;
+    line-height:50px;
+    
+}
+ul li a{
+    color:white;
+    padding:7px 10px;
+    border-radius:3px;
+    text-decoration:none;
+}
+.headera:hover{
+    background-color:darkblue;
+}
+@media(max-width:500px){
+    ul li a{
+        color:black;
+    }
+    .headera:hover{
+        background-color:blue;
+        border-radius:3px;
+        color:white;
+    }
+    ul{
+        display:flex;
+        flex-direction:column;
+        height:100vh;
+        width:100%;
+        align-items:center;
+    }
+    ul li{
+        display:block;
+        margin:0px 5px;
+        padding:7px 10px;
+    }
+}
+@media(max-width:600px){
+    ul li a{
+        color:black;
+    }
+    a:hover{
+        background-color:blue;
+        border-radius:3px;
+        color:white;
+    }
+    ul{
+        display:flex;
+        flex-direction:column;
+        height:100vh;
+        width:100%;
+        align-items:center;
+    }
+    ul li{
+        display:block;
+        margin:0px 5px;
+        padding:7px 10px;
+    }
+}
+@media(max-width:700px){
+    ul li a{
+        color:black;
+    }
+    a:hover{
+        background-color:blue;
+        border-radius:3px;
+        color:white;
+    }
+    ul{
+        display:flex;
+        flex-direction:column;
+        height:100vh;
+        width:100%;
+        align-items:center;
+    }
+    ul li{
+        display:block;
+        margin:0px 5px;
+        padding:7px 10px;
+    }
+}
+}
+.menubar{
+    display:block;
+    position:absolute;
+    background-color:whitesmoke;
+    color:black;
+    border:solid;
+    height:55px;
+    width:100%;
+    
+
+    ul li a{
+        padding: 10px;
+        margin-left:70px;
+        color:black;
+        font-weight: bold;
+        font-size: large;
+        text-decoration: none;
+        
+    }
+    ul li a:hover{
+        background-color: rgb(58, 55, 55);
+        border-radius:3px;
+        color:white;
+    }
+    li{
+        display:inline-block;
+               
+    }
+    ul{
+       
+        float:left;
+    }
+}
+
+ul li:hover .dropdown{
+    display:block;
+    position:absolute;
+    margin-left: 70px;
+    margin-top:7px;
+    font-size: 18px;
+    background-color:whitesmoke;
+}
+.dropdown{
+    display:none;
+}
+
+.dropdown ul li{
+    display:block;
+    font-size:large;
+}
+.dropdown ul li:hover{
+    background-color:darkblue;
+    color:white;
+    padding:9px;
+    font-size:20px;
+}
+.dropdown ul{
+    line-height:30px;
+    margin-right:100px;
+    padding:0px;
+
+}
+#h4header{
+    color:white;
+    margin-top: 120px;
+    margin-left:100px;
+}
+#box{
+   
+    margin-top:0px;
+    margin-left:250px;
+    width:1000px;
+    height:50px;
+    border:solid;
+    background-color:whitesmoke;
+    font-weight: bold;
+}
+
+#choicedrop{
+    display:inline-block;
+}
+h3{
+    display:inline-block;
+    margin-top:13px;
+    margin-left:10px
+}
+#fill-list li{
+    display:inline-block;
+    margin-left:30px;
+}
+#fill-list ul{
+    margin-left:250px;
+    margin-top:-35px;
+}
+#matches li{
+    border:transparent;
+    height:15px;
+    width:50px;
+    background-color:blue;
+}
+#h3header{
+    display: inline;
+    position:absolute;
+    padding:10px;
+    background-color:rgb(60, 60, 199);
+    color:White;
+    margin-left:800px;
+    margin-top:-50px;
+    border-radius:3px;
+}
+#a-h3{
+    display:inline;
+    color:white;
+    text-decoration: none;
+    
+}
+#footer-list{
+    color:white;
+}
+#footer-list {
+    display:inline-block;
+    margin-left:250px;
+    margin-top:50px;
+}
+.anchor{
+    text-decoration: none;
+    color:white;
+    margin-left:150px;
+    font-weight: bold;
+}
+.anchor:hover{
+    background-color:rgb(0,0,0,0.7);
+    padding:10px;
+    border-radius: 5px;
+}
+h6{
+    display:inline;
+}
+
+ul li:hover #experience{
+    display:block;
+    position:absolute;
+   margin-top:35px;
+   margin-left:130px;
+}
+#experience{
+    display:none;
+}
+
+#experience ul li{
+    display:block;
+    font-size:20px;
+    margin-left:0px;
+    padding: 10px;
+}
+#experience ul li:hover{
+    background-color:darkblue;
+    color:white;
+}
+#experience ul{
+    line-height: 50px;
+    margin-left:0px;
+    margin-right:0px;
+    padding:0px;
+    background-color: whitesmoke;
+
+}
+ul li:hover #salaries-list{
+    display:block;
+    position:absolute;
+    margin-left: 90px;
+    margin-top: 9px;
+  
+}
+#salaries-list ul li{
+    display:block;
+    color:black;
+    background-color:whitesmoke;
+    font-size: 20px;
+    line-height: 30px;;
+}
+#salaries-list{
+    display:none;
+}
+#salaries-list ul{
+    margin:0px;
+    padding: 0px;
+}
+#salaries-list ul li:hover{
+    background-color: darkblue;
+    padding:10px;
+    color:white;
+}
+ul li:hover #tech-dropdown{
+    display:block;
+    position:absolute;
+    margin-top: 10px;
+}
+#tech-dropdown{
+    display:none;
+}
+
+#tech-dropdown ul li{
+    display:block;
+    color:black;
+    background-color: whitesmoke;
+    line-height:30px;
+    font-size: 20px;
+    margin-left: 70px;
+}
+#tech-dropdown ul li:hover{
+    background-color:darkblue;
+    color:white;
+    padding:10px;
+    font-size:20px;
+}
+#dev-dropdown{
+    display:block;
+    position:absolute;
+}
+ul li:hover #dev-dropdown{
+    display:block;
+    position:absolute;
+    background-color: whitesmoke;
+    margin-left:50px;
+    margin-top:0px;
+}
+#dev-dropdown{
+    display:none;
+}
+
+#dev-dropdown ul li{
+    display:block;
+    line-height: 30px;
+    margin:0px;
+    padding:0px;
+    font-size: 20px;
+    font-weight:lighter;
+}
+#dev-dropdown ul{
+    margin:0px;
+    padding:0px;
+}
+#dev-dropdown ul li:hover{
+    background-color: darkblue;
+    color:white;
+    padding:10px;
+}
+
+    </style>
+</head>
+<body>
+    <div>
+    <header>
+        <nav class="parent">
+            <label class="child">Builtin &nbsp;<h6>Uniting People+Tech</h6></label>
+              <ul>
+                <li><a class="headera" href="#">Home</a></li>
+                <li><a class="headera" href="#">About</a></li>
+                <li><a class="headera" href="#">Help</a></li>
+                <li><a class="headera" href="#">Feedback</a></li>
+                <li><a class="headera" href="#">Help</a></li>
+              </ul>
+        </nav>
+</div>
+<div>
+        <nav class="menubar">
+            <ul>
+                <li><a href="#">Jobs &#x25BE;</a>
+                <div class="dropdown">
+                    <ul>
+                        <li>Computer System analyst</li>
+                        <li>Web Developer</li>
+                        <li>Database Administrator</li>
+                        <li>Network Administrator</li>
+                        <li>Information Security Analysts</li>
+                        <li>Devops Engineer</li>
+                        <li>Software Development</li>
+                    </ul>
+                </div> </li>
+                <li><a href="#">Tech Companies</a> </li>
+                <li><a href="#">Remote</a> </li>
+                <li><a href="#">Tech Topic&#x25BE;</a> 
+                <div id="tech-dropdown">
+                    <ul>
+                        <li>Internet Of Things</li>
+                        <li>CyberSecurity</li>
+                        <li>Machine Learning</li>
+                        <li>Artificial Intelligence</li>
+                        <li>DevOps</li>
+                        <li>Cloud Computing</li>
+                    </ul>
+                </div>
+                </li>
+                <li><a href="#">Salaries&#x25BE;</a> 
+                    <div id="salaries-list">
+                <ul>
+                    <li>0-20,000</li>
+                    <li>20,000-40,000</li>
+                    <li>40,000-60,000</li>
+                    <li>60,000-80,000</li>
+                    <li>80,000-1,00,000</li>
+                    <li>1,00,000-1,20,000</li>
+                    <li>1,20,000-1,40,000</li>
+                    <li>1,40,000-1,60,000</li>
+                </ul>
+                </div>
+                </li>
+                <li><a href="#">Learn</a> </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="h4header">
+    <h3>TECH TRENDS,JOBS + COMPANIES</h3>
+    <h1>Learn.Grow.<br>Build your career.</h1>
+    </div>
+    <div id="box">
+      <h3>Get the Job You Really Want</h3>
+      <div ID="fill-list">
+   <ul >
+    <li>Dev+Engineer &#x25BE;
+        <div id="dev-dropdown">
+            <ul>
+                <li>CTO</li>
+                <li>System Engineer</li>
+                <li>Architect</li>
+                <li>Data Science</li>
+                <li>Software Test Engineer</li>
+                <li>Project Manager</li>
+                <li>DevOps Engineer</li>
+            </ul>
+        </div>
+    </li>
+    <li>3-5 Years of Experience &#x25BE;
+        <div id="experience">
+        <ul>
+            <li>0-2yrs</li>
+            <li>2-4yrs</li>
+            <li>4-6yrs</li>
+            <li>6-8yrs</li>
+        </ul>
+    </li>
+   </ul>
+   <h3 id="h3header"><a href="#" id="a-h3">SEE JOB MATCHES</a></h3>
+   </div>
+    </div>
+    <div id="footer-list">
+    
+            <a href="#" class="anchor">Match With Companies</a>
+            <a href="#" class="anchor">Read Tech Articles</a>
+            <a href="#" class="anchor">Receive Job Offers</a>
+    </div>
+
+</body>
+</html>
