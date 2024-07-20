@@ -1,0 +1,357 @@
+body{
+    background:url("https://wallpapers.com/images/hd/website-background-sdki780prxb1nfs5.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:darken;
+    background-color:rgba(0,0,0,0.5);
+    margin:0;
+    padding:0;
+    height:100vh;
+}
+.parent{
+    height:80px;
+    width:100%;
+    background-color:rgb(9, 9, 93);
+label{
+    display:inline;
+    color:white;
+    font-size:50px;
+    margin-left:100px;
+    line-height:80px;
+}
+ul{
+    margin-right:10px;
+    float:right;
+}
+ul li{
+    display:inline-block;
+    margin:10px;
+    line-height:50px;
+    
+}
+ul li a{
+    color:white;
+    padding:7px 10px;
+    border-radius:3px;
+    text-decoration:none;
+}
+.headera:hover{
+    background-color:darkblue;
+}
+@media(max-width:500px){
+    ul li a{
+        color:black;
+    }
+    .headera:hover{
+        background-color:blue;
+        border-radius:3px;
+        color:white;
+    }
+    ul{
+        display:flex;
+        flex-direction:column;
+        height:100vh;
+        width:100%;
+        align-items:center;
+    }
+    ul li{
+        display:block;
+        margin:0px 5px;
+        padding:7px 10px;
+    }
+}
+@media(max-width:600px){
+    ul li a{
+        color:black;
+    }
+    a:hover{
+        background-color:blue;
+        border-radius:3px;
+        color:white;
+    }
+    ul{
+        display:flex;
+        flex-direction:column;
+        height:100vh;
+        width:100%;
+        align-items:center;
+    }
+    ul li{
+        display:block;
+        margin:0px 5px;
+        padding:7px 10px;
+    }
+}
+@media(max-width:700px){
+    ul li a{
+        color:black;
+    }
+    a:hover{
+        background-color:blue;
+        border-radius:3px;
+        color:white;
+    }
+    ul{
+        display:flex;
+        flex-direction:column;
+        height:100vh;
+        width:100%;
+        align-items:center;
+    }
+    ul li{
+        display:block;
+        margin:0px 5px;
+        padding:7px 10px;
+    }
+}
+}
+.menubar{
+    display:block;
+    position:absolute;
+    background-color:whitesmoke;
+    color:black;
+    border:solid;
+    height:55px;
+    width:100%;
+    
+
+    ul li a{
+        padding: 10px;
+        margin-left:70px;
+        color:black;
+        font-weight: bold;
+        font-size: large;
+        text-decoration: none;
+        
+    }
+    ul li a:hover{
+        background-color: rgb(58, 55, 55);
+        border-radius:3px;
+        color:white;
+    }
+    li{
+        display:inline-block;
+               
+    }
+    ul{
+       
+        float:left;
+    }
+}
+
+ul li:hover .dropdown{
+    display:block;
+    position:absolute;
+    margin-left: 70px;
+    margin-top:7px;
+    font-size: 18px;
+    background-color:whitesmoke;
+}
+.dropdown{
+    display:none;
+}
+
+.dropdown ul li{
+    display:block;
+    font-size:large;
+}
+.dropdown ul li:hover{
+    background-color:darkblue;
+    color:white;
+    padding:9px;
+    font-size:20px;
+}
+.dropdown ul{
+    line-height:30px;
+    margin-right:100px;
+    padding:0px;
+
+}
+#h4header{
+    color:white;
+    margin-top: 120px;
+    margin-left:100px;
+}
+#box{
+   
+    margin-top:0px;
+    margin-left:250px;
+    width:1000px;
+    height:50px;
+    border:solid;
+    background-color:whitesmoke;
+    font-weight: bold;
+}
+
+#choicedrop{
+    display:inline-block;
+}
+h3{
+    display:inline-block;
+    margin-top:13px;
+    margin-left:10px
+}
+#fill-list li{
+    display:inline-block;
+    margin-left:30px;
+}
+#fill-list ul{
+    margin-left:250px;
+    margin-top:-35px;
+}
+#matches li{
+    border:transparent;
+    height:15px;
+    width:50px;
+    background-color:blue;
+}
+#h3header{
+    display: inline;
+    position:absolute;
+    padding:10px;
+    background-color:rgb(60, 60, 199);
+    color:White;
+    margin-left:800px;
+    margin-top:-50px;
+    border-radius:3px;
+}
+#a-h3{
+    display:inline;
+    color:white;
+    text-decoration: none;
+    
+}
+#footer-list{
+    color:white;
+}
+#footer-list {
+    display:inline-block;
+    margin-left:250px;
+    margin-top:50px;
+}
+.anchor{
+    text-decoration: none;
+    color:white;
+    margin-left:150px;
+    font-weight: bold;
+}
+.anchor:hover{
+    background-color:rgb(0,0,0,0.7);
+    padding:10px;
+    border-radius: 5px;
+}
+h6{
+    display:inline;
+}
+
+ul li:hover #experience{
+    display:block;
+    position:absolute;
+   margin-top:35px;
+   margin-left:130px;
+}
+#experience{
+    display:none;
+}
+
+#experience ul li{
+    display:block;
+    font-size:20px;
+    margin-left:0px;
+    padding: 10px;
+}
+#experience ul li:hover{
+    background-color:darkblue;
+    color:white;
+}
+#experience ul{
+    line-height: 50px;
+    margin-left:0px;
+    margin-right:0px;
+    padding:0px;
+    background-color: whitesmoke;
+
+}
+ul li:hover #salaries-list{
+    display:block;
+    position:absolute;
+    margin-left: 90px;
+    margin-top: 9px;
+  
+}
+#salaries-list ul li{
+    display:block;
+    color:black;
+    background-color:whitesmoke;
+    font-size: 20px;
+    line-height: 30px;;
+}
+#salaries-list{
+    display:none;
+}
+#salaries-list ul{
+    margin:0px;
+    padding: 0px;
+}
+#salaries-list ul li:hover{
+    background-color: darkblue;
+    padding:10px;
+    color:white;
+}
+ul li:hover #tech-dropdown{
+    display:block;
+    position:absolute;
+    margin-top: 10px;
+}
+#tech-dropdown{
+    display:none;
+}
+
+#tech-dropdown ul li{
+    display:block;
+    color:black;
+    background-color: whitesmoke;
+    line-height:30px;
+    font-size: 20px;
+    margin-left: 70px;
+}
+#tech-dropdown ul li:hover{
+    background-color:darkblue;
+    color:white;
+    padding:10px;
+    font-size:20px;
+}
+#dev-dropdown{
+    display:block;
+    position:absolute;
+}
+ul li:hover #dev-dropdown{
+    display:block;
+    position:absolute;
+    background-color: whitesmoke;
+    margin-left:50px;
+    margin-top:0px;
+}
+#dev-dropdown{
+    display:none;
+}
+
+#dev-dropdown ul li{
+    display:block;
+    line-height: 30px;
+    margin:0px;
+    padding:0px;
+    font-size: 20px;
+    font-weight:lighter;
+}
+#dev-dropdown ul{
+    margin:0px;
+    padding:0px;
+}
+#dev-dropdown ul li:hover{
+    background-color: darkblue;
+    color:white;
+    padding:10px;
+}
